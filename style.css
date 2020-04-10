@@ -1,3 +1,51 @@
+#conteiner {
+    width: 100vw;
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.hcenter {
+    justify-content: center;
+}
+
+.vcenter {
+    align-items: center;
+}
+
+div#research {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 40vw;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+}
+
+div#research:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#lupaDoGoogle {
+    height: 40%;
+    margin-right: 2%;
+}
+
+#researchField {
+    height: 90%;
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87)
+}
+
 .buttonDesign {
     margin: 11px 4px;
     padding: 0 16px;
@@ -21,6 +69,8 @@
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
 }
+
+#information {}
 
 a#Coronavirus,
 a#GoogleInEnglish {
