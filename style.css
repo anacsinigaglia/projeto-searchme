@@ -51,6 +51,10 @@ div#research:hover {
     color: rgba(0, 0, 0, .87)
 }
 
+#buttons {
+    padding-top: 18px;
+}
+
 .buttonDesign {
     margin: 11px 4px;
     padding: 0 16px;
@@ -75,6 +79,11 @@ div#research:hover {
     border: 1px solid #c6c6c6;
 }
 
+#information {
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
 a#coronavirus,
 a#googleInEnglish {
     text-decoration: none;
@@ -83,33 +92,47 @@ a#googleInEnglish {
 #country {
     display: block;
     margin: 0;
+    font-size: 15px;
+    padding-left: 27px;
+    color: rgba(0, 0, 0, .54);
 }
 
-#endLinks {
+.endLink:link {
     display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 27px;
+    color: #5F6368;
 }
 
 #country,
 #endingLinks {
-    color: rgba(0, 0, 0, .54);
-    text-decoration: none;
     font-family: arial, sans-serif;
-    font-size: 15px;
-    padding-left: 27px;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     line-height: 40px;
     min-width: 980px;
 }
 
+#endingLinks {
+    margin-right: 20px;
+}
+
 .endLink:visited {
     text-decoration: none;
+    color: #5F6368;
 }
 
 .endLink:hover {
     text-decoration: underline;
+    color: #5F6368;
 }
 
 .endLink:active {
     text-decoration: underline;
+    color: rgba(255, 0, 0, .70);
+}
+
+.linkAlignedRight:link {
+    float: right;
 }
