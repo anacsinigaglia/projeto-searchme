@@ -1,6 +1,11 @@
-#conteiner {
-    width: 100vw;
+body {
+    margin: 0;
+    padding: 0;
     height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .column {
@@ -70,9 +75,41 @@ div#research:hover {
     border: 1px solid #c6c6c6;
 }
 
-#information {}
-
-a#Coronavirus,
-a#GoogleInEnglish {
+a#coronavirus,
+a#googleInEnglish {
     text-decoration: none;
+}
+
+#country {
+    display: block;
+    margin: 0;
+}
+
+#endLinks {
+    display: inline-block;
+}
+
+#country,
+#endingLinks {
+    color: rgba(0, 0, 0, .54);
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    padding-left: 27px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+}
+
+.endLink:visited {
+    text-decoration: none;
+}
+
+.endLink:hover {
+    text-decoration: underline;
+}
+
+.endLink:active {
+    text-decoration: underline;
 }
