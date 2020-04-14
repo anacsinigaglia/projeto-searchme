@@ -22,7 +22,7 @@ body {
 }
 
 #gmailImagesBox {
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 0 30px;
     align-self: flex-end;
     font-family: Arial, sans-serif;
@@ -64,6 +64,31 @@ body {
 #images:visited,
 #box:visited {
     color: rgba(0, 0, 0, 0.87);
+}
+
+button#login {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+    white-space: nowrap;
+    border: 1px solid #4285f4;
+    outline: none;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    color: #fff;
+    line-height: 28px;
+    border-radius: 2px;
+    padding: 0 12px;
+    margin: 0 15px
+}
+
+a#login {
+    border: 0;
+}
+
+button#login:active {
+    background: #3977db;
 }
 
 div#research {
